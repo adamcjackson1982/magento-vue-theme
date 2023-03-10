@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="Adam_VueComponents::css/app.css" />
+		<script defer="" src="Adam_VueComponents::js/main.js" />
+	</head>
+	<body>
+		<referenceContainer name="main.content">
+			<block class="Adam\VueComponents\Block\CmsPage" name="vue.app" template="Adam_VueComponents::app.phtml" before="-" />
+		</referenceContainer>
+	</body>
+</page>
